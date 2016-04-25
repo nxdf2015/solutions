@@ -1,0 +1,116 @@
+html
+{
+	font-family: Lato;
+	color : #0F230F;
+}
+
+#header{
+	background-color: #8AB5A9;
+	font-size : 2em;
+	height : 2.5em;
+
+}
+
+#company{
+	margin : 3px;
+	padding : 8px;
+	font-weight: bold;
+	font-size: 2em;
+	background-color: #8AB5A9;
+	color : #0F230F;
+	text-shadow : 1px 1px #A5C5C4;
+}
+
+#company:hover {
+	background-color: #8AB5A9;
+
+	color : #0F230F;
+}
+
+#navbar-collapse{
+	background-color: #8AB5A9;
+}
+
+#btn-menu {
+	
+	border : 3px solid #3C596A;
+}
+
+.icon-bar{
+border :2px solid #3C596A;
+}
+
+
+ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+ul li{
+	margin : 0.5em;
+}
+
+ul a:hover {
+	text-decoration: none;
+}
+
+ul li:hover {
+	
+	color : #0F230F;
+	background-color : white;
+	border-radius: 5px 5px;
+}
+
+#title{
+	margin : 15px;
+	text-align: center;
+	text-transform: capitalize;
+	font-size : 2.5em;
+}
+
+section{
+	box-sizing : content-box;
+	background-color : #8AB5A9;
+	margin : 25px;
+	border : 1px solid black;
+	font-size: 1em;	
+	overflow: auto;
+}
+
+section header{
+	text-align : center;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top : 10px;
+}
+section a{
+	text-decoration: none;
+	font-size: 1em;
+	color : #3C596A;
+	float :right;
+}
+
+
+#empty{
+	height : 150px;
+	display  :none;
+
+}
+
+@media (min-width: 800px){
+
+	#navbar-collapse{
+		float : right;
+	}
+}
+@media (max-width:800px){
+	.item  {
+	
+		border : 0.5px solid black;
+		margin-bottom: 0px;
+		margin-top : 0px;
+		margin-left : -30px;
+	}
+
+
+}
