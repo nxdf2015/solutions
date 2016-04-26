@@ -37,15 +37,14 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 
 for (var i=0 ;i<names.length;i++) {
 
-var name = names[i];
-(function(name){
+  var name = names[i];
   var firstLetter = (name.toLowerCase()).charAt(0);
   if (firstLetter == "j") {
     window.byeSpeaker.speak(name);
   } else {
     window.helloSpeaker.speak(name);
   };
-  })(name)
+  
 
 }//end for 
 })()
